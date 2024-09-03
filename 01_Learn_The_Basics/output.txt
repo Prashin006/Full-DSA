@@ -1,0 +1,5 @@
+Array before calling function
+43 34 56 78 
+0 100 56 78 
+Array after calling function
+0 100 56 78 
