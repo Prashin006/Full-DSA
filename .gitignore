@@ -33,3 +33,14 @@
 
 # vs code folder
 .vscode/
+01_Learn_The_Basics/*
+02_Sorting_Techniques/*
+03_Arrays/*
+05_Strings/*
+07_Recursion/*
+!*.cpp
+!*.h
+*a.out
+*main*
+!*main.cpp*
+

@@ -1,4 +1,5 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
 using namespace std;
 
 void merge(int arr[], int low, int mid, int high)
@@ -31,7 +32,7 @@ void merge(int arr[], int low, int mid, int high)
     }
     for (int i = low; i <= high; i++)
     {
-        arr[i] = temp.at(i - low);      // for ascending order
+        arr[i] = temp.at(i - low); // for ascending order
     }
 }
 
@@ -52,7 +53,7 @@ int main()
     int arr[] = {3, 1, 2, 6, 4, 2, 1, 5, 4, 5};
     int n = sizeof(arr) / sizeof(arr[0]) - 1;
     mergeSort(arr, 0, n);
-    for (auto num : arr)
+    for (int num : arr)
     {
         cout << num << " ";
     }
